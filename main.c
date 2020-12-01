@@ -1,14 +1,3 @@
-/**
- * @file main.c
- * @author Tuncay (usta60611@hotmail.com)
- * @brief 
- * @version 0.1
- * @date 2020-10-30
- * 
- * @copyright Copyright (c) 2020
- * 
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <myconio.h>
