@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
         printf("Montignies");
 
         gotoxy((CONSOLE_WIDTH - 20) / 2, 5);
-        printf("CRYPTAGE DE VIGENERE");
+        printf("CHIFFREMENT DE VIGENERE");
 
         // Request essential information
         gotoxy((CONSOLE_WIDTH - DIM_TEXT) / 2, 7);
@@ -118,7 +118,7 @@ int main(int argc, char *argv[])
         {
             if(secretKey[j] == '\0')
             {
-                j=0;
+                j = 0;
             }            
             
             decryptedText[i] = encryptedText[i] - secretKey[j];
